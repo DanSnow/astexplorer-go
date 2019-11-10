@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "astexplorer-go",
+  "version": "1.0.0",
+  "module": "index.js",
+  "main": "index.js",
+  "author": "DanSnow <dododavid006@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "shelljs": "^0.8.3"
+  }
+}
