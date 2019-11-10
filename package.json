@@ -6,6 +6,10 @@
   "main": "index.js",
   "author": "DanSnow <dododavid006@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanSnow/astexplorer-go"
+  },
   "devDependencies": {
     "shelljs": "^0.8.3"
   }
