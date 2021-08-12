@@ -10,7 +10,11 @@
     "type": "git",
     "url": "https://github.com/DanSnow/astexplorer-go"
   },
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
   "devDependencies": {
-    "shelljs": "^0.8.3"
-  }
+    "shelljs": "^0.8.4"
+  },
+  "packageManager": "yarn@3.0.1"
 }
