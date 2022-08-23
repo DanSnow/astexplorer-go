@@ -13,7 +13,7 @@ import (
 
 func parseFile(code string) []byte {
 	fst := token.NewFileSet()
-	f, _ := parser.ParseFile(fst, "main.go", code, 0)
+	f, _ := parser.ParseFile(fst, "main.go", code, parser.ParseComments)
 	m := walk(fst, f)
 	res, _ := json.Marshal(m)
 	return res
