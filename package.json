@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "astexplorer-go",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module": "index.js",
   "main": "index.js",
   "author": "DanSnow <dododavid006@gmail.com>",
