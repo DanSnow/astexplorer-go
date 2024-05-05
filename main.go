@@ -1,15 +1,21 @@
-// +build !js
+//go:build !js
 
 package main
 
 import (
 	"fmt"
-	"io/ioutil"
+	"io"
 	"os"
 )
 
 func main() {
-	code, err := ioutil.ReadFile(os.Args[1])
+	var code []byte
+	var err error
+	if len(os.Args) < 2 || os.Args[1] == "-" {
+		code, err = io.ReadAll(os.Stdin)
+	} else {
+		code, err = os.ReadFile(os.Args[1])
+	}
 	if err == nil {
 		res := parseFile(string(code))
 		fmt.Printf("%s\n", res)

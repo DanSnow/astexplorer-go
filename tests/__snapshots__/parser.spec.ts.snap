@@ -1,0 +1,799 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`can parse generic 1`] = `
+{
+  "Comments": [],
+  "Decls": [
+    {
+      "Body": {
+        "Lbrace": 235,
+        "List": [
+          {
+            "Decl": {
+              "Loc": {
+                "End": {
+                  "Column": 9,
+                  "Filename": "main.go",
+                  "Line": 7,
+                  "Offset": 244,
+                },
+                "Start": {
+                  "Column": 2,
+                  "Filename": "main.go",
+                  "Line": 7,
+                  "Offset": 237,
+                },
+              },
+              "Lparen": 0,
+              "Rparen": 0,
+              "Specs": [
+                {
+                  "Loc": {
+                    "End": {
+                      "Column": 9,
+                      "Filename": "main.go",
+                      "Line": 7,
+                      "Offset": 244,
+                    },
+                    "Start": {
+                      "Column": 6,
+                      "Filename": "main.go",
+                      "Line": 7,
+                      "Offset": 241,
+                    },
+                  },
+                  "Names": [
+                    {
+                      "Loc": {
+                        "End": {
+                          "Column": 7,
+                          "Filename": "main.go",
+                          "Line": 7,
+                          "Offset": 242,
+                        },
+                        "Start": {
+                          "Column": 6,
+                          "Filename": "main.go",
+                          "Line": 7,
+                          "Offset": 241,
+                        },
+                      },
+                      "Name": "s",
+                      "_type": "Ident",
+                    },
+                  ],
+                  "Type": {
+                    "Loc": {
+                      "End": {
+                        "Column": 9,
+                        "Filename": "main.go",
+                        "Line": 7,
+                        "Offset": 244,
+                      },
+                      "Start": {
+                        "Column": 8,
+                        "Filename": "main.go",
+                        "Line": 7,
+                        "Offset": 243,
+                      },
+                    },
+                    "Name": "V",
+                    "_type": "Ident",
+                  },
+                  "Values": [],
+                  "_type": "ValueSpec",
+                },
+              ],
+              "Tok": "var",
+              "_type": "GenDecl",
+            },
+            "Loc": {
+              "End": {
+                "Column": 9,
+                "Filename": "main.go",
+                "Line": 7,
+                "Offset": 244,
+              },
+              "Start": {
+                "Column": 2,
+                "Filename": "main.go",
+                "Line": 7,
+                "Offset": 237,
+              },
+            },
+            "_type": "DeclStmt",
+          },
+          {
+            "Body": {
+              "Lbrace": 267,
+              "List": [
+                {
+                  "Lhs": [
+                    {
+                      "Loc": {
+                        "End": {
+                          "Column": 4,
+                          "Filename": "main.go",
+                          "Line": 9,
+                          "Offset": 271,
+                        },
+                        "Start": {
+                          "Column": 3,
+                          "Filename": "main.go",
+                          "Line": 9,
+                          "Offset": 270,
+                        },
+                      },
+                      "Name": "s",
+                      "_type": "Ident",
+                    },
+                  ],
+                  "Loc": {
+                    "End": {
+                      "Column": 9,
+                      "Filename": "main.go",
+                      "Line": 9,
+                      "Offset": 276,
+                    },
+                    "Start": {
+                      "Column": 3,
+                      "Filename": "main.go",
+                      "Line": 9,
+                      "Offset": 270,
+                    },
+                  },
+                  "Rhs": [
+                    {
+                      "Loc": {
+                        "End": {
+                          "Column": 9,
+                          "Filename": "main.go",
+                          "Line": 9,
+                          "Offset": 276,
+                        },
+                        "Start": {
+                          "Column": 8,
+                          "Filename": "main.go",
+                          "Line": 9,
+                          "Offset": 275,
+                        },
+                      },
+                      "Name": "v",
+                      "_type": "Ident",
+                    },
+                  ],
+                  "Tok": "+=",
+                  "_type": "AssignStmt",
+                },
+              ],
+              "Loc": {
+                "End": {
+                  "Column": 3,
+                  "Filename": "main.go",
+                  "Line": 10,
+                  "Offset": 279,
+                },
+                "Start": {
+                  "Column": 22,
+                  "Filename": "main.go",
+                  "Line": 8,
+                  "Offset": 266,
+                },
+              },
+              "Rbrace": 279,
+              "_type": "BlockStmt",
+            },
+            "For": 247,
+            "Key": {
+              "Loc": {
+                "End": {
+                  "Column": 7,
+                  "Filename": "main.go",
+                  "Line": 8,
+                  "Offset": 251,
+                },
+                "Start": {
+                  "Column": 6,
+                  "Filename": "main.go",
+                  "Line": 8,
+                  "Offset": 250,
+                },
+              },
+              "Name": "_",
+              "_type": "Ident",
+            },
+            "Loc": {
+              "End": {
+                "Column": 3,
+                "Filename": "main.go",
+                "Line": 10,
+                "Offset": 279,
+              },
+              "Start": {
+                "Column": 2,
+                "Filename": "main.go",
+                "Line": 8,
+                "Offset": 246,
+              },
+            },
+            "Range": 259,
+            "Tok": ":=",
+            "Value": {
+              "Loc": {
+                "End": {
+                  "Column": 10,
+                  "Filename": "main.go",
+                  "Line": 8,
+                  "Offset": 254,
+                },
+                "Start": {
+                  "Column": 9,
+                  "Filename": "main.go",
+                  "Line": 8,
+                  "Offset": 253,
+                },
+              },
+              "Name": "v",
+              "_type": "Ident",
+            },
+            "X": {
+              "Loc": {
+                "End": {
+                  "Column": 21,
+                  "Filename": "main.go",
+                  "Line": 8,
+                  "Offset": 265,
+                },
+                "Start": {
+                  "Column": 20,
+                  "Filename": "main.go",
+                  "Line": 8,
+                  "Offset": 264,
+                },
+              },
+              "Name": "m",
+              "_type": "Ident",
+            },
+            "_type": "RangeStmt",
+          },
+          {
+            "Loc": {
+              "End": {
+                "Column": 10,
+                "Filename": "main.go",
+                "Line": 11,
+                "Offset": 289,
+              },
+              "Start": {
+                "Column": 2,
+                "Filename": "main.go",
+                "Line": 11,
+                "Offset": 281,
+              },
+            },
+            "Results": [
+              {
+                "Loc": {
+                  "End": {
+                    "Column": 10,
+                    "Filename": "main.go",
+                    "Line": 11,
+                    "Offset": 289,
+                  },
+                  "Start": {
+                    "Column": 9,
+                    "Filename": "main.go",
+                    "Line": 11,
+                    "Offset": 288,
+                  },
+                },
+                "Name": "s",
+                "_type": "Ident",
+              },
+            ],
+            "Return": 282,
+            "_type": "ReturnStmt",
+          },
+        ],
+        "Loc": {
+          "End": {
+            "Column": 2,
+            "Filename": "main.go",
+            "Line": 12,
+            "Offset": 291,
+          },
+          "Start": {
+            "Column": 68,
+            "Filename": "main.go",
+            "Line": 6,
+            "Offset": 234,
+          },
+        },
+        "Rbrace": 291,
+        "_type": "BlockStmt",
+      },
+      "Loc": {
+        "End": {
+          "Column": 2,
+          "Filename": "main.go",
+          "Line": 12,
+          "Offset": 291,
+        },
+        "Start": {
+          "Column": 1,
+          "Filename": "main.go",
+          "Line": 6,
+          "Offset": 167,
+        },
+      },
+      "Name": {
+        "Loc": {
+          "End": {
+            "Column": 21,
+            "Filename": "main.go",
+            "Line": 6,
+            "Offset": 187,
+          },
+          "Start": {
+            "Column": 6,
+            "Filename": "main.go",
+            "Line": 6,
+            "Offset": 172,
+          },
+        },
+        "Name": "SumIntsOrFloats",
+        "_type": "Ident",
+      },
+      "Type": {
+        "Func": 168,
+        "Loc": {
+          "End": {
+            "Column": 67,
+            "Filename": "main.go",
+            "Line": 6,
+            "Offset": 233,
+          },
+          "Start": {
+            "Column": 1,
+            "Filename": "main.go",
+            "Line": 6,
+            "Offset": 167,
+          },
+        },
+        "Params": {
+          "Closing": 231,
+          "List": [
+            {
+              "Loc": {
+                "End": {
+                  "Column": 64,
+                  "Filename": "main.go",
+                  "Line": 6,
+                  "Offset": 230,
+                },
+                "Start": {
+                  "Column": 55,
+                  "Filename": "main.go",
+                  "Line": 6,
+                  "Offset": 221,
+                },
+              },
+              "Names": [
+                {
+                  "Loc": {
+                    "End": {
+                      "Column": 56,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 222,
+                    },
+                    "Start": {
+                      "Column": 55,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 221,
+                    },
+                  },
+                  "Name": "m",
+                  "_type": "Ident",
+                },
+              ],
+              "Type": {
+                "Key": {
+                  "Loc": {
+                    "End": {
+                      "Column": 62,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 228,
+                    },
+                    "Start": {
+                      "Column": 61,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 227,
+                    },
+                  },
+                  "Name": "K",
+                  "_type": "Ident",
+                },
+                "Loc": {
+                  "End": {
+                    "Column": 64,
+                    "Filename": "main.go",
+                    "Line": 6,
+                    "Offset": 230,
+                  },
+                  "Start": {
+                    "Column": 57,
+                    "Filename": "main.go",
+                    "Line": 6,
+                    "Offset": 223,
+                  },
+                },
+                "Map": 224,
+                "Value": {
+                  "Loc": {
+                    "End": {
+                      "Column": 64,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 230,
+                    },
+                    "Start": {
+                      "Column": 63,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 229,
+                    },
+                  },
+                  "Name": "V",
+                  "_type": "Ident",
+                },
+                "_type": "MapType",
+              },
+              "_type": "Field",
+            },
+          ],
+          "Loc": {
+            "End": {
+              "Column": 65,
+              "Filename": "main.go",
+              "Line": 6,
+              "Offset": 231,
+            },
+            "Start": {
+              "Column": 54,
+              "Filename": "main.go",
+              "Line": 6,
+              "Offset": 220,
+            },
+          },
+          "Opening": 221,
+          "_type": "FieldList",
+        },
+        "Results": {
+          "Closing": 0,
+          "List": [
+            {
+              "Loc": {
+                "End": {
+                  "Column": 67,
+                  "Filename": "main.go",
+                  "Line": 6,
+                  "Offset": 233,
+                },
+                "Start": {
+                  "Column": 66,
+                  "Filename": "main.go",
+                  "Line": 6,
+                  "Offset": 232,
+                },
+              },
+              "Names": [],
+              "Type": {
+                "Loc": {
+                  "End": {
+                    "Column": 67,
+                    "Filename": "main.go",
+                    "Line": 6,
+                    "Offset": 233,
+                  },
+                  "Start": {
+                    "Column": 66,
+                    "Filename": "main.go",
+                    "Line": 6,
+                    "Offset": 232,
+                  },
+                },
+                "Name": "V",
+                "_type": "Ident",
+              },
+              "_type": "Field",
+            },
+          ],
+          "Loc": {
+            "End": {
+              "Column": 67,
+              "Filename": "main.go",
+              "Line": 6,
+              "Offset": 233,
+            },
+            "Start": {
+              "Column": 66,
+              "Filename": "main.go",
+              "Line": 6,
+              "Offset": 232,
+            },
+          },
+          "Opening": 0,
+          "_type": "FieldList",
+        },
+        "TypeParams": {
+          "Closing": 220,
+          "List": [
+            {
+              "Loc": {
+                "End": {
+                  "Column": 34,
+                  "Filename": "main.go",
+                  "Line": 6,
+                  "Offset": 200,
+                },
+                "Start": {
+                  "Column": 22,
+                  "Filename": "main.go",
+                  "Line": 6,
+                  "Offset": 188,
+                },
+              },
+              "Names": [
+                {
+                  "Loc": {
+                    "End": {
+                      "Column": 23,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 189,
+                    },
+                    "Start": {
+                      "Column": 22,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 188,
+                    },
+                  },
+                  "Name": "K",
+                  "_type": "Ident",
+                },
+              ],
+              "Type": {
+                "Loc": {
+                  "End": {
+                    "Column": 34,
+                    "Filename": "main.go",
+                    "Line": 6,
+                    "Offset": 200,
+                  },
+                  "Start": {
+                    "Column": 24,
+                    "Filename": "main.go",
+                    "Line": 6,
+                    "Offset": 190,
+                  },
+                },
+                "Name": "comparable",
+                "_type": "Ident",
+              },
+              "_type": "Field",
+            },
+            {
+              "Loc": {
+                "End": {
+                  "Column": 53,
+                  "Filename": "main.go",
+                  "Line": 6,
+                  "Offset": 219,
+                },
+                "Start": {
+                  "Column": 36,
+                  "Filename": "main.go",
+                  "Line": 6,
+                  "Offset": 202,
+                },
+              },
+              "Names": [
+                {
+                  "Loc": {
+                    "End": {
+                      "Column": 37,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 203,
+                    },
+                    "Start": {
+                      "Column": 36,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 202,
+                    },
+                  },
+                  "Name": "V",
+                  "_type": "Ident",
+                },
+              ],
+              "Type": {
+                "Loc": {
+                  "End": {
+                    "Column": 53,
+                    "Filename": "main.go",
+                    "Line": 6,
+                    "Offset": 219,
+                  },
+                  "Start": {
+                    "Column": 38,
+                    "Filename": "main.go",
+                    "Line": 6,
+                    "Offset": 204,
+                  },
+                },
+                "Op": "|",
+                "X": {
+                  "Loc": {
+                    "End": {
+                      "Column": 43,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 209,
+                    },
+                    "Start": {
+                      "Column": 38,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 204,
+                    },
+                  },
+                  "Name": "int64",
+                  "_type": "Ident",
+                },
+                "Y": {
+                  "Loc": {
+                    "End": {
+                      "Column": 53,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 219,
+                    },
+                    "Start": {
+                      "Column": 46,
+                      "Filename": "main.go",
+                      "Line": 6,
+                      "Offset": 212,
+                    },
+                  },
+                  "Name": "float64",
+                  "_type": "Ident",
+                },
+                "_type": "BinaryExpr",
+              },
+              "_type": "Field",
+            },
+          ],
+          "Loc": {
+            "End": {
+              "Column": 54,
+              "Filename": "main.go",
+              "Line": 6,
+              "Offset": 220,
+            },
+            "Start": {
+              "Column": 21,
+              "Filename": "main.go",
+              "Line": 6,
+              "Offset": 187,
+            },
+          },
+          "Opening": 188,
+          "_type": "FieldList",
+        },
+        "_type": "FuncType",
+      },
+      "_type": "FuncDecl",
+    },
+  ],
+  "FileEnd": 293,
+  "FileStart": 1,
+  "GoVersion": "",
+  "Imports": [],
+  "Loc": {
+    "End": {
+      "Column": 2,
+      "Filename": "main.go",
+      "Line": 12,
+      "Offset": 291,
+    },
+    "Start": {
+      "Column": 1,
+      "Filename": "main.go",
+      "Line": 2,
+      "Offset": 45,
+    },
+  },
+  "Name": {
+    "Loc": {
+      "End": {
+        "Column": 13,
+        "Filename": "main.go",
+        "Line": 2,
+        "Offset": 57,
+      },
+      "Start": {
+        "Column": 9,
+        "Filename": "main.go",
+        "Line": 2,
+        "Offset": 53,
+      },
+    },
+    "Name": "main",
+    "_type": "Ident",
+  },
+  "Package": 46,
+  "Unresolved": [
+    {
+      "Loc": {
+        "End": {
+          "Column": 34,
+          "Filename": "main.go",
+          "Line": 6,
+          "Offset": 200,
+        },
+        "Start": {
+          "Column": 24,
+          "Filename": "main.go",
+          "Line": 6,
+          "Offset": 190,
+        },
+      },
+      "Name": "comparable",
+      "_type": "Ident",
+    },
+    {
+      "Loc": {
+        "End": {
+          "Column": 43,
+          "Filename": "main.go",
+          "Line": 6,
+          "Offset": 209,
+        },
+        "Start": {
+          "Column": 38,
+          "Filename": "main.go",
+          "Line": 6,
+          "Offset": 204,
+        },
+      },
+      "Name": "int64",
+      "_type": "Ident",
+    },
+    {
+      "Loc": {
+        "End": {
+          "Column": 53,
+          "Filename": "main.go",
+          "Line": 6,
+          "Offset": 219,
+        },
+        "Start": {
+          "Column": 46,
+          "Filename": "main.go",
+          "Line": 6,
+          "Offset": 212,
+        },
+      },
+      "Name": "float64",
+      "_type": "Ident",
+    },
+  ],
+  "_type": "File",
+}
+`;
