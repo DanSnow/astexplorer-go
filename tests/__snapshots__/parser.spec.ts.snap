@@ -2,7 +2,103 @@
 
 exports[`can parse generic 1`] = `
 {
-  "Comments": [],
+  "Comments": [
+    {
+      "List": [
+        {
+          "Loc": {
+            "End": {
+              "Column": 45,
+              "Filename": "main.go",
+              "Line": 1,
+              "Offset": 44,
+            },
+            "Start": {
+              "Column": 1,
+              "Filename": "main.go",
+              "Line": 1,
+              "Offset": 0,
+            },
+          },
+          "Slash": 1,
+          "Text": "// from https://go.dev/doc/tutorial/generics",
+          "_type": "Comment",
+        },
+      ],
+      "Loc": {
+        "End": {
+          "Column": 45,
+          "Filename": "main.go",
+          "Line": 1,
+          "Offset": 44,
+        },
+        "Start": {
+          "Column": 1,
+          "Filename": "main.go",
+          "Line": 1,
+          "Offset": 0,
+        },
+      },
+      "_type": "CommentGroup",
+    },
+    {
+      "List": [
+        {
+          "Loc": {
+            "End": {
+              "Column": 80,
+              "Filename": "main.go",
+              "Line": 4,
+              "Offset": 138,
+            },
+            "Start": {
+              "Column": 1,
+              "Filename": "main.go",
+              "Line": 4,
+              "Offset": 59,
+            },
+          },
+          "Slash": 60,
+          "Text": "// SumIntsOrFloats sums the values of map m. It supports both int64 and float64",
+          "_type": "Comment",
+        },
+        {
+          "Loc": {
+            "End": {
+              "Column": 28,
+              "Filename": "main.go",
+              "Line": 5,
+              "Offset": 166,
+            },
+            "Start": {
+              "Column": 1,
+              "Filename": "main.go",
+              "Line": 5,
+              "Offset": 139,
+            },
+          },
+          "Slash": 140,
+          "Text": "// as types for map values.",
+          "_type": "Comment",
+        },
+      ],
+      "Loc": {
+        "End": {
+          "Column": 28,
+          "Filename": "main.go",
+          "Line": 5,
+          "Offset": 166,
+        },
+        "Start": {
+          "Column": 1,
+          "Filename": "main.go",
+          "Line": 4,
+          "Offset": 59,
+        },
+      },
+      "_type": "CommentGroup",
+    },
+  ],
   "Decls": [
     {
       "Body": {
@@ -311,6 +407,63 @@ exports[`can parse generic 1`] = `
         },
         "Rbrace": 291,
         "_type": "BlockStmt",
+      },
+      "Doc": {
+        "List": [
+          {
+            "Loc": {
+              "End": {
+                "Column": 80,
+                "Filename": "main.go",
+                "Line": 4,
+                "Offset": 138,
+              },
+              "Start": {
+                "Column": 1,
+                "Filename": "main.go",
+                "Line": 4,
+                "Offset": 59,
+              },
+            },
+            "Slash": 60,
+            "Text": "// SumIntsOrFloats sums the values of map m. It supports both int64 and float64",
+            "_type": "Comment",
+          },
+          {
+            "Loc": {
+              "End": {
+                "Column": 28,
+                "Filename": "main.go",
+                "Line": 5,
+                "Offset": 166,
+              },
+              "Start": {
+                "Column": 1,
+                "Filename": "main.go",
+                "Line": 5,
+                "Offset": 139,
+              },
+            },
+            "Slash": 140,
+            "Text": "// as types for map values.",
+            "_type": "Comment",
+          },
+        ],
+        "Loc": {
+          "End": {
+            "Column": 28,
+            "Filename": "main.go",
+            "Line": 5,
+            "Offset": 166,
+          },
+          "Start": {
+            "Column": 1,
+            "Filename": "main.go",
+            "Line": 4,
+            "Offset": 59,
+          },
+        },
+        "_type": "CommentGroup",
       },
       "Loc": {
         "End": {
@@ -701,6 +854,44 @@ exports[`can parse generic 1`] = `
       "_type": "FuncDecl",
     },
   ],
+  "Doc": {
+    "List": [
+      {
+        "Loc": {
+          "End": {
+            "Column": 45,
+            "Filename": "main.go",
+            "Line": 1,
+            "Offset": 44,
+          },
+          "Start": {
+            "Column": 1,
+            "Filename": "main.go",
+            "Line": 1,
+            "Offset": 0,
+          },
+        },
+        "Slash": 1,
+        "Text": "// from https://go.dev/doc/tutorial/generics",
+        "_type": "Comment",
+      },
+    ],
+    "Loc": {
+      "End": {
+        "Column": 45,
+        "Filename": "main.go",
+        "Line": 1,
+        "Offset": 44,
+      },
+      "Start": {
+        "Column": 1,
+        "Filename": "main.go",
+        "Line": 1,
+        "Offset": 0,
+      },
+    },
+    "_type": "CommentGroup",
+  },
   "FileEnd": 293,
   "FileStart": 1,
   "GoVersion": "",
